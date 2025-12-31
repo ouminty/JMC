@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "id": "addon-template",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Cosmic",
+  "description": "A Hacked Client",
   "authors": [
     "seasnail"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com/ouminty/JMC"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
-    "meteor": [
+    "Meteor": [
       "com.example.addon.AddonTemplate"
     ]
   },
@@ -24,7 +24,7 @@
     "meteor-client:color": "225,25,25",
     "modmenu": {
       "parent": {
-        "id": "meteor-client"
+        "id": "Cosmic Client"
       }
     }
   },
